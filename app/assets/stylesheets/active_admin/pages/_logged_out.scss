@@ -1,4 +1,6 @@
-&.logged_out {
+@import "active_admin/mixins";
+
+body.logged_out {
   background: #e8e9ea;
 
   #content_wrapper{
@@ -33,7 +35,7 @@
         input[type=text], input[type=email], input[type=password] {
           width: 70%;
         }
-        &.buttons { margin-left: 20%; }
+        body.buttons { margin-left: 20%; }
         margin-bottom: 0;
       }
     }
